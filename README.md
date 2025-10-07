@@ -1,4 +1,4 @@
-# Thewild
+# NatureVM
 A full-on nature simulator.
 
 <strong>Warning: Please wait until release 0.0.1</strong>
