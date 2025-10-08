@@ -19,7 +19,7 @@ jobs:
       - name: Install Qt
         uses: jurplel/install-qt-action@v3
         with:
-          version: '5.12'
+          version: '5.15.19'
           modules: 'qtbase'
 
       - name: Create Build Directory
