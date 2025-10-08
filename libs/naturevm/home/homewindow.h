@@ -15,6 +15,10 @@ public:
     HomeWindow(QWidget *parent = nullptr);
     ~HomeWindow();
 
+private slots:
+    void on_newProjectButton_clicked();
+    void on_openProjectButton_clicked();
+
 private:
     Ui::HomeWindow *ui;
 };

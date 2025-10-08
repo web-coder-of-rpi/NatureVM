@@ -93,3 +93,5 @@ CMakeUserPresets.json
 #cmake-build-*
 .qt/
 build/
+NatureVM
+.vscode/

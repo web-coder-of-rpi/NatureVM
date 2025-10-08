@@ -19,8 +19,8 @@
      <rect>
       <x>40</x>
       <y>10</y>
-      <width>200</width>
-      <height>41</height>
+      <width>221</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
@@ -50,7 +50,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Open Project</string>
     </property>
    </widget>
   </widget>
@@ -75,6 +75,7 @@
      <string>Window</string>
     </property>
     <addaction name="actionFull_Screen"/>
+    <addaction name="actionClose"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -147,6 +148,14 @@
   <action name="actionReload_Add_Ons">
    <property name="text">
     <string>Reload Add-Ons</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
    </property>
   </action>
  </widget>
