@@ -16,7 +16,6 @@ public:
     ~HomeWindow();
 
 private slots:
-    // void on_newProjectButton_clicked();
     void on_openProjectButton_clicked();
     void on_actionFull_Screen_triggered();
     void on_actionClose_triggered();
