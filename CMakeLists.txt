@@ -17,6 +17,9 @@ set(PROJECT_SOURCES
         libs/naturevm/home/homewindow.cpp
         libs/naturevm/home/homewindow.h
         libs/naturevm/home/homewindow.ui
+        libs/naturevm/about/about.cpp
+        libs/naturevm/about/about.h
+        libs/naturevm/about/about.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

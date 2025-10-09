@@ -30,11 +30,6 @@ void HomeWindow::on_actionFull_Screen_triggered()
     }
 }
 
-void HomeWindow::on_actionClose_triggered()
-{
-    HomeWindow::close();
-}
-
 void HomeWindow::on_actionSource_Code_triggered()
 {
     QDesktopServices::openUrl(QUrl("https://github.com/web-coder-of-rpi/NatureVM"));
