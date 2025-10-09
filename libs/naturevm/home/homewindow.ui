@@ -60,7 +60,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>28</height>
+     <height>19</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -93,8 +93,8 @@
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuLibraies"/>
-   <addaction name="menuWindow"/>
    <addaction name="menuHelp"/>
+   <addaction name="menuWindow"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNew_Project">
@@ -155,10 +155,13 @@
     <string>Close</string>
    </property>
    <property name="shortcut">
-    <string>Ctrl+S</string>
+    <string>Ctrl+Shift+Q</string>
    </property>
   </action>
  </widget>
  <resources/>
  <connections/>
+ <slots>
+  <slot>fullScreenClicked()</slot>
+ </slots>
 </ui>

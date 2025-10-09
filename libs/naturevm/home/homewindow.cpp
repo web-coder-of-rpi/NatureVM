@@ -1,6 +1,7 @@
 #include "homewindow.h"
 #include "ui/ui_homewindow.h"
-#include <iostream>
+#include <QDesktopServices>
+#include <QUrl>
 
 HomeWindow::HomeWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -14,12 +15,27 @@ HomeWindow::~HomeWindow()
     delete ui;
 }
 
-void HomeWindow::on_newProjectButton_clicked()
-{
-    std::cout << "New Project\n";
-}
-
 void HomeWindow::on_openProjectButton_clicked()
 {
-    std::cout << "Open project\n";
+    HomeWindow::showNormal();
+}
+
+void HomeWindow::on_actionFull_Screen_triggered()
+{
+    // Toggle full screen mode
+    if (isFullScreen()) {
+        showNormal();
+    } else {
+        showFullScreen();
+    }
+}
+
+void HomeWindow::on_actionClose_triggered()
+{
+    HomeWindow::close();
+}
+
+void HomeWindow::on_actionSource_Code_triggered()
+{
+    QDesktopServices::openUrl(QUrl("https://github.com/web-coder-of-rpi/NatureVM"));
 }
